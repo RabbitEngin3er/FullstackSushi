@@ -1,0 +1,20 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>California Roll</mat-card-title>
+    <!--<mat-card-subtitle>Dog Breed</mat-card-subtitle>-->
+  </mat-card-header>
+  <img mat-card-image src="california.png" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p>
+      € 1.99
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button (click)="increment()" mat-button>+</button>
+    <span>{{counter}}</span>
+    <button (click)="decrement()" mat-button>-</button>
+    <button mat-button>Acquista</button>
+  </mat-card-actions>
+</mat-card>
+
